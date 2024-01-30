@@ -1,0 +1,17 @@
+version: 1.0.5
+
+port: 8081
+
+kafka:
+  bootstrap-servers:
+    - localhost:9093
+    - localhost:9094
+    - localhost:9095
+
+topic:
+  emails:
+    topic-name: emails
+  sms:
+    topic-name: sms
+  slack:
+    topic-name: slack
